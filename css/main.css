@@ -72,3 +72,52 @@ ul.inline-items li {
 .main-nav ul li a:hover{
 	text-decoration:underline;
 }
+.info-section{
+	padding:30px 60px;
+	background-color:#fff;
+}
+.info-section header{
+	text-align:center;
+	margin-bottom:60px;
+}
+.info-section header h2{
+	font-size:28px;
+	text-transform:uppercase;
+	letter-spacing:3px;
+}
+.info-section header h2::after {
+	content: '';
+	display:block;
+	border-bottom:3px solid black;
+	width:80px;
+	text-align:center;
+	margin:10px auto 0;
+}
+
+.info-section__description{
+	font-style:italic;
+}
+.whatido__skill--code{
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-image:url(../img/skill-code.png);
+	padding-top:100px;
+	width:33.3%;
+	float:left;
+}
+.whatido__skill--design{
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-image:url(../img/skill-design.png);
+	padding-top:100px;
+	width:33.3%;
+	float:left;
+}
+.whatido__skill--product{
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-image:url(../img/skill-product.png);
+	padding-top:100px;
+	width:33.3%;
+	float:left;
+}
