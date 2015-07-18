@@ -6,6 +6,7 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
+	overflow-x:hidden;
 }
 *{
 	padding: 0;
@@ -17,10 +18,11 @@ p {
 h1,h2,h3,h4,h5,h6{
 	color:#333;
 	font-weight:300;
+	margin: 16px 0;
 }
 ul.nostyle{
 	list-style:none;
-	padding:0;
+	padding:1;
 	margin:0;
 }
 ul.inline-items li {
@@ -208,4 +210,53 @@ ul.inline-items li {
 	left: -90px;
 	text-align: right;
 	width: 80px;
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.container {
+		width: 100%;
+	}
+	.main-header h1 {
+		font-size: 32px
+	}
+	.main-nav ul li {
+		display: block;
+	}
+	.info-section{
+		padding: 10px 20px;
+	}
+	.whatido__skill{
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.education-experience__list li{
+		text-align: center;
+	}
+	.education-experience__list img {
+		float: none;
+	}
+	.education-experience__list__description {
+		clear: both;
+		margin: 0;
+		text-align: left;
+	}
+	.info-section header h2 span {
+		display: block;
+	}
+	.photos__list li{
+		width: 100%;
+	}
+	.get-in-touch__list li{
+		width: 50%;
+	}
+	.get-in-touch__list li img {
+		width: 80%;
+	}
+	.contact label {
+		position: static;
+	}
+	.contact form {
+		width: 100%;
+	}
 }
