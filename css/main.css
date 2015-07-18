@@ -174,3 +174,38 @@ ul.inline-items li {
 	float: left;
 	text-align: center;
 }
+
+.contact form{
+	width: 40%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.contact input,
+.contact textarea {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 100%;
+	padding: 4px;
+	margin-bottom: 20px;
+}
+
+.contact button {
+	border: none;
+	border-radius: 9999px;
+
+	background: #ffd524;
+
+	cursor: pointer;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	color: #fff;
+	box-shadow: 0 3px 0 #daae1d;
+	width: 100%;
+	padding: 4px;
+}
+.contact label {
+	position: absolute;
+	left: -90px;
+	text-align: right;
+	width: 80px;
+}
