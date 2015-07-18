@@ -163,3 +163,14 @@ ul.inline-items li {
 .photos__list li img {
 	width: 100%;
 }
+.get-in-touch__list {
+	float: left;
+	width: 100%;
+	list-style-type: none;
+}
+.get-in-touch__list li {
+	box-sizing: border-box;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
